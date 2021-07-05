@@ -3,6 +3,6 @@ services:
   app:
     build: .
     volumes: 
-      - ./:/app
+      - ./src:/app
     ports: 
       - 8052:80
